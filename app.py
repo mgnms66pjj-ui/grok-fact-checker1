@@ -1,14 +1,11 @@
-import subprocess
-import sys
-
-# 手動安裝 stripe
-subprocess.check_call([sys.executable, "-m", "pip", "install", "stripe"])
-
 import streamlit as st
 import stripe
 from datetime import datetime, timedelta
 import json
+
 st.set_page_config(page_title="Grok Fact Checker", page_icon="🔍", layout="centered")
+
+# 其他程式碼...
 
 # ========== 自行替換你的 Stripe 金鑰 ==========
 STRIPE_SECRET_KEY = "sk_test_你的測試密鑰"
