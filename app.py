@@ -1,5 +1,5 @@
 import streamlit as st
-import stripe
+in <moduule> import stripe
 from datetime import datetime, timedelta
 import json
 
